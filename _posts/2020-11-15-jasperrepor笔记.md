@@ -65,6 +65,8 @@ tags:
      这种。具体的设置界面如下图
 
      ![image-20201115154028920](/img/image-20201115154028920.png)
+     
+   - 报表默认在dataSource为空的时是不打印的，如果你的子表这个时候需要打印title或者summary时，需要把报表中的属性whenNoDataType改为“AllSectionsNoDetail”
 
 4. 让图片或者多文本居中
 
@@ -107,7 +109,7 @@ tags:
    详细的字体的导入导出可以参考这篇文章：[JasperReport| JasperReport中使用自定义字体(font)](https://blog.csdn.net/u011479200/article/details/78607812)
    
 8. 当最后一页只有summary时，header跟footer不打印
-  这个问题我查了很久，最后发现在报表属性设置中就有对应的设置，勾选“Summary With Page Header And Footer”，页眉页脚就出现了
+    这个问题我查了很久，最后发现在报表属性设置中就有对应的设置，勾选“Summary With Page Header And Footer”，页眉页脚就出现了
 
   ![image-20201115144706318](/img/image-20201115144706318.png)
 
