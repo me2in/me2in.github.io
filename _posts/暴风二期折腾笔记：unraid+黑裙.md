@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      暴风二期nas折腾笔记
+subtitle:   
+date:       2020-11-23
+author:     me2in
+header-img: img/home-bg-o.jpg
+catalog: true
+tags:
+    - 矿渣
+	- nas
+	- 群晖
+---
+
+
 1. [TOC]
 
    # 前言
